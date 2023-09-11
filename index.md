@@ -1,10 +1,10 @@
 ---
-layout: default
 title: Davide Legacci
 ---
 
 # Hello World!
 
+## So, I killed the layout. What now?
 ## Math tests
 
 ### Dollars after adding single dollar support and double bracket, so?
@@ -25,11 +25,3 @@ What aboud double dollar $$\dot{x} = X(x)$$ without lines above and below?
 Equation \(x+y\) is rendered inline, and
 #### Block
 Equation \[x+y\] is rendered as display. The problem is that this is achieved with brackets, not dollars, and obsidian does not support brackets.... uff! 
-
-
-#### Obsidian
-Now I opened this as Obsidian vault. Is css changing?
-There should be a config yml file at some point...
-
-#### Theme
-and the theme changed..? To minima?
