@@ -25,3 +25,5 @@ Equation \(x+y\) is rendered inline, and
 Equation \[x+y\] is rendered as display. The problem is that this is achieved with brackets, not dollars, and obsidian does not support brackets.... uff! 
 
 
+#### Obsidian
+Now I opened this as Obsidian vault. Is css changing?
