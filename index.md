@@ -30,3 +30,6 @@ Equation \[x+y\] is rendered as display. The problem is that this is achieved wi
 #### Obsidian
 Now I opened this as Obsidian vault. Is css changing?
 There should be a config yml file at some point...
+
+#### Theme
+and the theme changed..?
