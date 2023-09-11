@@ -12,14 +12,16 @@ title: Davide Legacci
 Equation $x+y$, so $f(x) = z^3 - \frac{ \sqrt{x} } { \sum_{i = 0}^{n} k_i }$
 #### Block
 Added support for display math, so
+
 $$\dot{x} = X(x)$$
-should render as display...?
+
+should render as display...? Maybe adding space?
 
 
 ### Bracket, no spaces
 #### Inline
-Equation \(x+y\)
+Equation \(x+y\) is rendered inline, and
 #### Block
-Equation \[x+y\]
+Equation \[x+y\] is rendered as display. The problem is that this is achieved with brackets, not dollars, and obsidian does not support brackets....
 
 
