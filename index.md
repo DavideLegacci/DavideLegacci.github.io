@@ -11,7 +11,9 @@ title: Davide Legacci
 #### Inline
 Equation $x+y$, so $f(x) = z^3 - \frac{ \sqrt{x} } { \sum_{i = 0}^{n} k_i }$
 #### Block
-Equation $$x+y$$
+Added support for display math, so
+$$\dot{x} = X(x)$$
+should render as display...?
 
 
 ### Bracket, no spaces
