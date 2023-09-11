@@ -32,4 +32,4 @@ Now I opened this as Obsidian vault. Is css changing?
 There should be a config yml file at some point...
 
 #### Theme
-and the theme changed..?
+and the theme changed..? To minima?
