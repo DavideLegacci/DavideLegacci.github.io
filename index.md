@@ -22,6 +22,6 @@ should render as display...? Maybe adding space?
 #### Inline
 Equation \(x+y\) is rendered inline, and
 #### Block
-Equation \[x+y\] is rendered as display. The problem is that this is achieved with brackets, not dollars, and obsidian does not support brackets....
+Equation \[x+y\] is rendered as display. The problem is that this is achieved with brackets, not dollars, and obsidian does not support brackets.... uff! 
 
 
