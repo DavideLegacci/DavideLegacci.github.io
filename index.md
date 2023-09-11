@@ -17,6 +17,8 @@ $$\dot{x} = X(x)$$
 
 should render as display...? Maybe adding space?
 
+What aboud double dollar $$\dot{x} = X(x)$$ without lines above and below?
+
 
 ### Bracket, no spaces
 #### Inline
