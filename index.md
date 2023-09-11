@@ -11,7 +11,7 @@ title: Davide Legacci
 #### Inline
 Equatio0n $x+y$
 #### Block
-Equation $$ x+y $$
+Equation $$x+y$$
 
 
 ### Bracket
