@@ -7,7 +7,7 @@ title: Davide Legacci
 
 ## Math tests
 
-### Dollars
+### Dollars after adding single dollar support 
 #### Inline
 Equation $x+y$
 #### Block
