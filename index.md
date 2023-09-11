@@ -16,8 +16,8 @@ Equation $$x+y$$
 
 ### Bracket
 #### Inline
-Equation \( x+y \)
+Equation \(x+y\)
 #### Block
-Equation \[ x+y \]
+Equation \[x+y\]
 
 
