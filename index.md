@@ -7,9 +7,9 @@ title: Davide Legacci
 
 ## Math tests
 
-### Dollars after adding single dollar support 
+### Dollars after adding single dollar support and double bracket
 #### Inline
-Equation $x+y$
+Equation $x+y$, so $f(x) = z^3 - \frac{\sqrt{x}}{\sum_{i = 0}^n}k_i$
 #### Block
 Equation $$x+y$$
 
