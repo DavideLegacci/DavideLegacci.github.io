@@ -9,12 +9,12 @@ title: Davide Legacci
 
 ### Dollars
 #### Inline
-Equatio0n $x+y$
+Equation $x+y$
 #### Block
 Equation $$x+y$$
 
 
-### Bracket
+### Bracket, no spaces
 #### Inline
 Equation \(x+y\)
 #### Block
