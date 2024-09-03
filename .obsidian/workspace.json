@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "how-to-link.md",
+                "file": "_posts/2024-09-03-test-post.md",
                 "mode": "preview",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "how-to-link.md",
+                "file": "_posts/2024-09-03-test-post.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "how-to-link.md",
+                "file": "_posts/2024-09-03-test-post.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "how-to-link.md"
+                "file": "_posts/2024-09-03-test-post.md"
               }
             }
           }
@@ -148,7 +148,8 @@
   },
   "active": "e7ebf70170636d1f",
   "lastOpenFiles": [
-    "_posts/2024-09-03 Test post.md",
-    "_posts/2024-01-17-hamiltonian-riemannian-game-dynamics.md"
+    "_posts/2024-01-17-hamiltonian-riemannian-game-dynamics.md",
+    "_posts/2024-09-03-test-post.md",
+    "how-to-link.md"
   ]
 }
