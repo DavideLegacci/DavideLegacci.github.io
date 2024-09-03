@@ -1,7 +1,7 @@
 # Davide Legacci Research Blog
 
 
-## 🏠 [Home](https://davidelegacci.it/)
+## 🏠 [To main site](https://davidelegacci.it/)
 
 
 {% for post in site.posts %}
