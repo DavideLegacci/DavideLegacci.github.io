@@ -1,8 +1,9 @@
-# Davide Legacci Research Blog
 
+---
 
 ## 🏠 [To main site](https://davidelegacci.it/)
 
+---
 
 {% for post in site.posts %}
 <h2>{{ post.title }}</h2>
