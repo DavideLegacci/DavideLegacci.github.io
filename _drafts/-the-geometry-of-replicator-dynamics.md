@@ -1,0 +1,1 @@
+Elaborate https://math.stackexchange.com/questions/3143488/how-is-the-replicator-dynamic-a-gradient-flow-of-the-fisher-information-metric
