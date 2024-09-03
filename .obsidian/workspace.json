@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-09-03-test-post.md",
+                "file": "_posts/2024-01-17-hamiltonian-riemannian-game-dynamics.md",
                 "mode": "preview",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-09-03-test-post.md",
+                "file": "_posts/2024-01-17-hamiltonian-riemannian-game-dynamics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-09-03-test-post.md",
+                "file": "_posts/2024-01-17-hamiltonian-riemannian-game-dynamics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-09-03-test-post.md"
+                "file": "_posts/2024-01-17-hamiltonian-riemannian-game-dynamics.md"
               }
             }
           }
@@ -146,8 +146,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e7ebf70170636d1f",
+  "active": "4fe4d1d33063966b",
   "lastOpenFiles": [
+    "_posts/2024-01-17-geometric-aspects-of-learning-in-games.md",
     "_posts/2024-01-17-hamiltonian-riemannian-game-dynamics.md",
     "_posts/2024-09-03-test-post.md",
     "how-to-link.md"
