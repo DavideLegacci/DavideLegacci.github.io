@@ -1,3 +1,6 @@
+---
+tag: geometry 
+---
 
 Let's compute the volume of the probability simplex with respect to the Shahshahani metric.
 
@@ -61,19 +64,19 @@ $$\det{h}(s) = \frac{1}{\left(1-\sum_is_i\right)\prod_js_j}$$
 
 
 >**Determinant of pull-back metric**
-In general the determinant of the pull-back metric isn't the same thing of the determinant of the ambient metric; this seems to be a special property of the Shahshahani metric.
-As a counter example, consider the Euclidean 3-metric with determinant $1$, and the metric induced on the two-sphere
-
-$$g = \begin{pmatrix}
-1 & 0 \\
-0 & \sin^2(\theta)
-\end{pmatrix}$$
-
-with determinant $\sin^2(\theta)$.
+>In general the determinant of the pull-back metric isn't the same thing of the determinant of the ambient metric; this seems to be a special property of the Shahshahani metric.
+>As a counter example, consider the Euclidean 3-metric with determinant $1$, and the metric induced on the two-sphere
+>
+>$$g = \begin{pmatrix}
+>1 & 0 \\
+>0 & \sin^2(\theta)
+>\end{pmatrix}$$
+>
+>with determinant $\sin^2(\theta)$.
 
 ---
 
-So the Sha. volume of the $n$-simplex is
+So the Shahshahani volume of the $n$-simplex is
 
 $$
 \begin{split}
