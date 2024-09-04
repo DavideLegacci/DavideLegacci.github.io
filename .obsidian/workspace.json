@@ -4,18 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "65c8e698e8decebc",
+        "id": "a0a7fb9c3425b90b",
         "type": "tabs",
         "children": [
           {
-            "id": "e7ebf70170636d1f",
+            "id": "2aa3b297d29efed5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "_posts/2024-09-04-simplex-shah-volume.md",
                 "mode": "preview",
-                "source": true
+                "source": false
               }
             }
           }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "_posts/2024-09-04-simplex-shah-volume.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "_posts/2024-09-04-simplex-shah-volume.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "_posts/2024-09-04-simplex-shah-volume.md"
               }
             }
           }
@@ -146,8 +146,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e7ebf70170636d1f",
+  "active": "2aa3b297d29efed5",
   "lastOpenFiles": [
+    "_posts/2024-09-04-simplex-shah-volume.md",
+    "README.md",
     "_posts/2024-01-17-hamiltonian-riemannian-game-dynamics.md",
     "_posts/2024-01-17-geometric-aspects-of-learning-in-games.md",
     "_posts/2024-09-03-test-post.md",
