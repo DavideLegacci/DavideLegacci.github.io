@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
-                "mode": "source",
+                "file": "_posts/2024-01-17-hamiltonian-riemannian-game-dynamics.md",
+                "mode": "preview",
                 "source": true
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "_posts/2024-01-17-hamiltonian-riemannian-game-dynamics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "_posts/2024-01-17-hamiltonian-riemannian-game-dynamics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "_posts/2024-01-17-hamiltonian-riemannian-game-dynamics.md"
               }
             }
           }
@@ -148,19 +148,19 @@
   },
   "active": "2aa3b297d29efed5",
   "lastOpenFiles": [
+    "_posts/2024-01-17-geometric-aspects-of-learning-in-games.md",
+    "_posts/2024-09-04-shahshahani-volume-of-the-probability-simplex.md",
+    "_posts/2024-01-17-hamiltonian-riemannian-game-dynamics.md",
     "tag/project.md",
     "tag/geometry.md",
     "README.md",
-    "_posts/2024-09-04-shahshahani-volume-of-the-probability-simplex.md",
     "how-to-link.md",
-    "_posts/2024-01-17-geometric-aspects-of-learning-in-games.md",
     "tag/geometry.html",
     "tag",
     "untitled folder",
     "tag/tag.html",
     "_layouts/post copy.html",
     "_layouts/post.html",
-    "_posts/2024-01-17-hamiltonian-riemannian-game-dynamics.md",
     "_posts/2024-09-03-test-post.md"
   ]
 }

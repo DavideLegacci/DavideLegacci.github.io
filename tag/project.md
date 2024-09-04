@@ -1,3 +1,4 @@
+# Project
 <ul>
   {% for post in site.posts %}
     {% if post.tags contains "project" %}
