@@ -9,7 +9,7 @@ Let's compute the volume of the probability simplex with respect to the Shahshah
 
 $\DeclareMathOperator{\Vol}{Vol}$
 $\DeclareMathOperator{\d}{d\!}$
-$\DeclareMathOperator{\J}{J\!}$
+$\DeclareMathOperator{\J}{J}$
 
 
 ## Shashahani  metric on the simplex
