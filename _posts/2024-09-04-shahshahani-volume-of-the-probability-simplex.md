@@ -8,7 +8,7 @@ Let's compute the volume of the probability simplex with respect to the Shahshah
 # Riemanniann volume of the probability simplex under the Shahshahani metric
 
 $\DeclareMathOperator{\Vol}{Vol}$
-$\DeclareMathOperator{\d}{d\!}$
+$\DeclareMathOperator{\d}{d}$
 $\DeclareMathOperator{\J}{J}$
 
 

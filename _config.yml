@@ -6,3 +6,4 @@ relative_links:
 include:
   - README.md
 title: Davide Legacci | Research Blog
+permalink: /tag/:name/
