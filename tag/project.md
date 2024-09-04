@@ -1,7 +1,6 @@
-
 <ul>
   {% for post in site.posts %}
-    {% if post.tags contains "geometry" %}
+    {% if post.tags contains "project" %}
       <li>
         <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
         <small>{{ post.date | date: "%B %d, %Y" }}</small>
