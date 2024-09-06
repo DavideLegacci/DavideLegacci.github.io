@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "_drafts/-basic-facts-on-Riemannian-gradients.md",
                 "mode": "preview",
-                "source": true
+                "source": false
               }
             }
           }
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "_drafts/-basic-facts-on-Riemannian-gradients.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "_drafts/-basic-facts-on-Riemannian-gradients.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "_drafts/-basic-facts-on-Riemannian-gradients.md"
               }
             }
           }
@@ -149,12 +148,13 @@
   },
   "active": "2aa3b297d29efed5",
   "lastOpenFiles": [
+    "README.md",
+    "_drafts/-basic-facts-on-Riemannian-gradients.md",
     "_posts/2024-01-17-hamiltonian-riemannian-game-dynamics.md",
     "_posts/2024-01-17-geometric-aspects-of-learning-in-games.md",
     "_posts/2024-09-04-shahshahani-volume-of-the-probability-simplex.md",
     "tag/project.md",
     "tag/geometry.md",
-    "README.md",
     "how-to-link.md",
     "tag/geometry.html",
     "tag",
