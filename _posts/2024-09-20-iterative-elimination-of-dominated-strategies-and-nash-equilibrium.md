@@ -2,6 +2,8 @@
 tag: game-theory
 ---
 
+{% raw %}
+
 In a finite game in normal form, if iterative elimination of weakly dominated strategies leads to a unique pure actions profile, then such action profile is a Nash equilibrium. 
 
 # Iterative elimination of dominated strategies and Nash equilibrium
@@ -50,3 +52,5 @@ u_{i}(a_{i}', a^{\ast}_{-i}) \geq u_{i}(a_{i}, a^{\ast}_{-i}) > u_{i}(a^{\ast}_{
 $$
 
 since $a_{i} \in \tilde{A}_{i}$. But then also $a'_{i} \in \tilde{A}_{i}$, so $a'_{i}$ must itself be eliminated at some later stage of the game. This procedure proceeds ad perpetuum, which is a contradiction (since the elimination procedure must terminate after finitely many steps to give $a^{\ast}$).
+
+{% endraw %}
