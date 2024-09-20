@@ -12,9 +12,9 @@ I had a hard time finding a complete proof of this well-known result:
 
 The best I found is this great [handout on Itereated Elimination and Nash Equilibria](https://homepages.math.uic.edu/~marker/stat473-S16/IESDS.pdf) on the webpage of [David Marker](https://homepages.math.uic.edu/~marker/stat473-S16/) for the two-player case; here is the generalization to the $N$-player case.
 
-Let $\Gamma = \Gamma(N, A, u)$. Let IEWDS mean [Iterative Elimination of Weakly Dominated Strategies](https://www.youtube.com/watch?v=E9IBWofIglc). Let $a^{\ast}$ be a IEWDS solution, meaning that IEWDS leads to the **unique** strategy profile $a^{\ast}$. Then $a^{\ast}$ is Nash equilibrium for $\Gamma$.
+Let $\Gamma = \Gamma(N, A, u)$. Let IEWDS mean [Iterative Elimination of Weakly Dominated Strategies](https://www.youtube.com/watch?v=E9IBWofIglc). Let $a^{\ast}$ be a IEWDS solution, meaning that IEWDS leads to the unique strategy profile $a^{\ast}$. Then $a^{\ast}$ is Nash equilibrium for $\Gamma$.
 
-Let's stress that IEWDS leads to a **unique** outcome. If this is not the case, whatever remains after IEWDS, or even IWSDS (iterated elimination of strictly dominated strategies) needs not be a Nash equilibrium.
+Let's stress that IEWDS leads to a unique outcome. If this is not the case, whatever remains after IEWDS, or even IWSDS (iterated elimination of strictly dominated strategies) needs not be a Nash equilibrium.
 
 Recall that $a^{\ast}$ is a Nash equilibrium if it is a self best response, in the sense that
 
@@ -37,7 +37,7 @@ $$
 
 Clearly $a^{\ast}_{i} \notin \tilde{A}_{i}$, and by assumption $\tilde{A}_{i} \neq \emptyset$.
 
-Since $a^{\ast}$ is the **unique** solution of IEWDS, every action of every player other than the one in $a^{\ast}$ must be eliminated at some point. In particular, every $a_{i} \in \tilde{A}_{i}$ must be eliminated at some stage. So for any $a_{i} \in \tilde{A}_{i}$ there exists a stage of the game in which $a_{i}$ is weakly dominated, that is there exists some $a_{i}' \in A_{i}$ still in the game such that
+Since $a^{\ast}$ is the unique solution of IEWDS, every action of every player other than the one in $a^{\ast}$ must be eliminated at some point. In particular, every $a_{i} \in \tilde{A}_{i}$ must be eliminated at some stage. So for any $a_{i} \in \tilde{A}_{i}$ there exists a stage of the game in which $a_{i}$ is weakly dominated, that is there exists some $a_{i}' \in A_{i}$ still in the game such that
 
 $$
 u_{i}(a_{i}', b_{-i}) \geq u_{i}(a_{i}, b_{-i})
