@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-09-20-iterative-elimination-of-dominated-strategies-and-nash-equilibrium.md",
+                "file": "tag/geometry.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "8af9951f6b588e9f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tag/game-theory.md",
                 "mode": "preview",
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-09-20-iterative-elimination-of-dominated-strategies-and-nash-equilibrium.md",
+                "file": "tag/game-theory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-09-20-iterative-elimination-of-dominated-strategies-and-nash-equilibrium.md",
+                "file": "tag/game-theory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-09-20-iterative-elimination-of-dominated-strategies-and-nash-equilibrium.md"
+                "file": "tag/game-theory.md"
               }
             }
           }
@@ -146,18 +159,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2aa3b297d29efed5",
+  "active": "8af9951f6b588e9f",
   "lastOpenFiles": [
-    "_posts/2024-09-04-shahshahani-volume-of-the-probability-simplex.md",
+    "tag/geometry.md",
+    "tag/game-theory.md",
     "_posts/2024-09-20-iterative-elimination-of-dominated-strategies-and-nash-equilibrium.md",
+    "_posts/2024-09-04-shahshahani-volume-of-the-probability-simplex.md",
     "how-to-link.md",
     "_posts/2024-01-17-hamiltonian-riemannian-game-dynamics.md",
     "_drafts/-basic-facts-on-Riemannian-gradients.md",
-    "Untitled.md",
     "README.md",
     "_posts/2024-01-17-geometric-aspects-of-learning-in-games.md",
     "tag/project.md",
-    "tag/geometry.md",
     "tag/geometry.html",
     "tag",
     "untitled folder",
