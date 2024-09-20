@@ -7,6 +7,8 @@ In a finite game in normal form, if iterative elimination of weakly dominated st
 
 # Iterative elimination of dominated strategies and Nash equilibrium
 
+> Apologies reader, I abuse the block math in this post, for some reason the underscore is behaving wild in inline math.
+
 I had a hard time finding a complete proof of this well-known result: 
 
 > If iterative domination of weakly dominated strategies leads to a singleton $a \in \mathcal{A}$, then $a$ is a Nash equilibrium.
@@ -29,28 +31,26 @@ $$
 u_{i}(a^{\ast}_{i}, a^{\ast}_{-i}) \geq u_{i}(a_{i}, a^{\ast}_{-i})  \quad \text{for all } i \in N, a_{i} \in A_{i}.
 $$
 
-Reason by contradiction. Let $a^{\ast}$ be a IEWDS solution, and assume $a^{\ast}$ is not Nash. Then for some player $i$ there exist actions that perform better than \(a^{\ast}_{i}\) 
-
-against $a^{\ast}_{-i}$. Let $\tilde{A_{i}}$ be the set of these actions, that is
+Reason by contradiction. Let $a^{\ast}$ be a IEWDS solution, and assume $a^{\ast}$ is not Nash. Then for some player $i$ there exist actions that perform better than $$a^{\ast}_{i}$$ against $$a^{\ast}_{-i}$$. Let $$\tilde{A_{i}}$$ be the set of these actions, that is
 
 $$
 \tilde{A}_{i} =
 \{ a_{i} \in A_{i}: u_{i}(a_{i}, a^{\ast}_{-i}) > u_{i}(a^{\ast}_{i}, a^{\ast}_{-i}) \}
 $$
 
-Clearly $a^{\ast}_{i} \notin \tilde{A}_{i}$, and by assumption $\tilde{A}_{i} \neq \emptyset$.
+Clearly $$a^{\ast}_{i} \notin \tilde{A}_{i}$$, and by assumption $$\tilde{A}_{i} \neq \emptyset$$.
 
-Since $a^{\ast}$ is the unique solution of IEWDS, every action of every player other than the one in $a^{\ast}$ must be eliminated at some point. In particular, every $a_{i} \in \tilde{A}_{i}$ must be eliminated at some stage. So for any $a_{i} \in \tilde{A}_{i}$ there exists a stage of the game in which $a_{i}$ is weakly dominated, that is there exists some $a_{i}' \in A_{i}$ still in the game such that
+Since $a^{\ast}$ is the unique solution of IEWDS, every action of every player other than the one in $a^{\ast}$ must be eliminated at some point. In particular, every $$a_{i} \in \tilde{A}_{i}$$ must be eliminated at some stage. So for any $$a_{i} \in \tilde{A}_{i}$$ there exists a stage of the game in which $$a_{i}$$ is weakly dominated, that is there exists some $$a_{i}' \in A_{i}$$ still in the game such that
 
 $$
 u_{i}(a_{i}', b_{-i}) \geq u_{i}(a_{i}, b_{-i})
 $$
 
-for all $\beta_{-i}$ still in the game at that stage. In particular this must be true for $a^{\ast}_{-i}$ (which is never eliminated), so
+for all $$\beta_{-i}$$ still in the game at that stage. In particular this must be true for $$a^{\ast}_{-i}$$ (which is never eliminated), so
 
 $$
 u_{i}(a_{i}', a^{\ast}_{-i}) \geq u_{i}(a_{i}, a^{\ast}_{-i}) > u_{i}(a^{\ast}_{i}, a^{\ast}_{-i})
 $$
 
-since $a_{i} \in \tilde{A}_{i}$. But then also $a'_{i} \in \tilde{A}_{i}$, so $a'_{i}$ must itself be eliminated at some later stage of the game. This procedure proceeds ad perpetuum, which is a contradiction (since the elimination procedure must terminate after finitely many steps to give $a^{\ast}$).
+since $$a_{i} \in \tilde{A}_{i}$$. But then also $$a'_{i} \in \tilde{A}_{i}$$, so $$a'_{i}$$ must itself be eliminated at some later stage of the game. This procedure proceeds ad perpetuum, which is a contradiction (since the elimination procedure must terminate after finitely many steps to give $a^{\ast}$).
 
