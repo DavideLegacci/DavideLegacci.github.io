@@ -13,9 +13,9 @@ I had a hard time finding a complete proof of this well-known result:
 
 The best I found is this great [handout on Itereated Elimination and Nash Equilibria](https://homepages.math.uic.edu/~marker/stat473-S16/IESDS.pdf) on the webpage of [David Marker](https://homepages.math.uic.edu/~marker/stat473-S16/) for the two-player case; here is the generalization to the $N$-player case.
 
-Let $\Gamma = \Gamma(N, A, u)$. Let IEWDS mean [Iterative Elimination of Weakly Dominated Strategies](https://www.youtube.com/watch?v=E9IBWofIglc). Let $a^{\ast}$ be a IEWDS solution, meaning that IEWDS leads to the unique strategy profile $a^{\ast}$. Then $a^{\ast}$ is Nash equilibrium for $\Gamma$.
+Let $\Gamma = \Gamma(N, A, u)$. Let IEWDS mean [Iterative Elimination of Weakly Dominated Strategies](https://www.youtube.com/watch?v=E9IBWofIglc). Let $a^{\ast}$ be a IEWDS solution, meaning that IEWDS leads to the **unique** strategy profile $a^{\ast}$. Then $a^{\ast}$ is Nash equilibrium for $\Gamma$.
 
-Let's stress that IEWDS leads to a unique outcome. If this is not the case, whatever remains after IEWDS, or even IWSDS (iterated elimination of strictly dominated strategies) needs not be a Nash equilibrium.
+Let's stress that IEWDS leads to a **unique** outcome. If this is not the case, whatever remains after IEWDS, or even IWSDS (iterated elimination of strictly dominated strategies) needs not be a Nash equilibrium.
 
 Recall that $a^{\ast}$ is a Nash equilibrium if it is a self best response, in the sense that
 
