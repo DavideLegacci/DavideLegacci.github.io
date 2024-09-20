@@ -2,9 +2,6 @@
 tag: game-theory
 ---
 
-$$
-\newcommand{\under}[2]{#1_{#2}}
-$$
 
 In a finite game in normal form, if iterative elimination of weakly dominated strategies leads to a unique pure actions profile, then such action profile is a Nash equilibrium. 
 
@@ -32,7 +29,9 @@ $$
 u_{i}(a^{\ast}_{i}, a^{\ast}_{-i}) \geq u_{i}(a_{i}, a^{\ast}_{-i})  \quad \text{for all } i \in N, a_{i} \in A_{i}.
 $$
 
-Reason by contradiction. Let $a^{\ast}$ be a IEWDS solution, and assume $a^{\ast}$ is not Nash. Then for some player $i$ there exist actions that perform better than $\under{a^{\ast}}{{i}}$ against $a^{\ast}_{-i}$. Let $\tilde{A_{i}}$ be the set of these actions, that is
+Reason by contradiction. Let $a^{\ast}$ be a IEWDS solution, and assume $a^{\ast}$ is not Nash. Then for some player $i$ there exist actions that perform better than \(a^{\ast}_{i}\) 
+
+against $a^{\ast}_{-i}$. Let $\tilde{A_{i}}$ be the set of these actions, that is
 
 $$
 \tilde{A}_{i} =
