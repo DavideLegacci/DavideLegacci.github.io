@@ -7,8 +7,6 @@ In a finite game in normal form, if iterative elimination of weakly dominated st
 
 # Iterative elimination of dominated strategies and Nash equilibrium
 
-> Apologies reader, I abuse the block math in this post, for some reason the underscore is behaving wild in inline math.
-
 I had a hard time finding a complete proof of this well-known result: 
 
 > If iterative domination of weakly dominated strategies leads to a singleton $a \in \mathcal{A}$, then $a$ is a Nash equilibrium.
