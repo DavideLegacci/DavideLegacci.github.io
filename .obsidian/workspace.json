@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "_posts/2024-09-20-iterative-elimination-of-dominated-strategies-and-nash-equilibrium.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true
               }
             }
@@ -148,17 +148,18 @@
   },
   "active": "8af9951f6b588e9f",
   "lastOpenFiles": [
+    "README.md",
+    "personal_readme.txt",
+    "_posts/2024-09-20-iterative-elimination-of-dominated-strategies-and-nash-equilibrium.md",
     "_includes/head-custom.html",
     "_includes/OFF_head-custom.html",
     "_includes/head-custom copy.html",
     "_posts/2024-09-04-shahshahani-volume-of-the-probability-simplex.md",
-    "_posts/2024-09-20-iterative-elimination-of-dominated-strategies-and-nash-equilibrium.md",
     "tag/game-theory.md",
     "tag/geometry.md",
     "how-to-link.md",
     "_posts/2024-01-17-hamiltonian-riemannian-game-dynamics.md",
     "_drafts/-basic-facts-on-Riemannian-gradients.md",
-    "README.md",
     "_posts/2024-01-17-geometric-aspects-of-learning-in-games.md",
     "tag/project.md",
     "tag/geometry.html",
