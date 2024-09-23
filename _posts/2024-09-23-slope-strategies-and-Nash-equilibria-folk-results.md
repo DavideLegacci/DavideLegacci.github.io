@@ -25,7 +25,7 @@ $$
 $$
 Let $\game = \game(\players, \pures, \pay)$ be a finite normal form game with players $\players$, pure profiles $\pures$ and payoff function $u$, and let $\strats$ denote the mixed strategy space.
 
-For any player $\play$, fixed a choice $\strat_{\others}$ from the opponents, the payoff function $\pay_\play(\cdot, \strat_{\others}) \from \strats_\play \to \R$ is the linear, real-valued function on $\strats_i$ given by $\pay_\play(\strat_\play, \strat_{\others}) = \sum_{\pure_\play \in \pures_\play} \strat_{\findex} \pay_\play(\pure_\play, \strat_\others)$. 
+For any player $\play$, fixed a choice $\strat_{\others}$ from the opponents, the payoff function $\pay_\play(\cdot, \strat_{\others}) \from \strats_\play \to \R$ is the linear, real-valued function on $\strats_i$ given by $\pay_\play(\strat_\play, \strat_{\others}) = \sum_{\pure_\play \in \pures_\play} \strat_{\findex} \pay_\play(\pure_\play, \strat_{\others})$. 
 
 > **Definition**
 > The set of **best replies** to any $\strat_{\others} \in \strats_{\others}$ is 
@@ -35,19 +35,22 @@ For any player $\play$, fixed a choice $\strat_{\others}$ from the opponents, th
 By linearity of $\pay_{\play}(\cdot, \strat_{\others})$, the set of best replies to any $\strat_{\others}$ is a non-empty union of faces of $\strats_{\play}$, containing a vertex of $\strats_{\play}$ at least and the whole $\strats_{\play}$ at most.
 
 > **Definition**
-> A mixed strategy $\strat \in \strats$ is called **slope strategy** if each player $\play$ is indifferent among all of their choices, give that the others play $\strat_{\others}$:
+> A mixed strategy $\strat \in \strats$ is called **slope strategy** if each player $\play$ is indifferent among all of their choices, given that the others play $\strat_{\others}$:
 > 
 > $$\pay_\play(\pure_{\play}, \strat_{\others}) = \pay_\play(\purealt_{\play}, \strat_{\others}) \quad \text{for all } \play \in \players, \pure_{\play}, \purealt_{\play} \in \pures_\play $$
 
 > **Definition**
-> A mixed strategy $\strat \in \strats$ is called **slope-support** if if each player $\play$ is indifferent among all of their **available** choices, give that the others play $\strat_{\others}$:
+> A mixed strategy $\strat \in \strats$ is called **slope-support** if if each player $\play$ is indifferent among all of their **available** choices, given that the others play $\strat_{\others}$:
+> 
 > $$\pay_\play(\pure_{\play}, \strat_{\others}) = \pay_\play(\purealt_{\play}, \strat_{\others}) \quad \text{for all } \play \in \players, \pure_{\play}, \purealt_{\play} \in \supp_{\play}(\strat_\play) \subseteq \pures_{\play} $$
 
 > **Definition**
 > A mixed strategy $\strat \in \strats$ is called **Nash equilibrium** if it is a best reply to itself, in the sense that
 > 
 > $$ \strat_{\play} \in \BR_{\play}(\strat_{\others}) \quad \text{for all } \play \in \players $$
+> 
 > A Nash equilibrium is **strict** if
+> 
 >  $$ \{\strat_{\play}\} = \BR_{\play}(\strat_{\others}) \quad \text{for all } \play \in \players $$
 
 > **Folk result on Nash equilibria and slope strategies**
@@ -57,7 +60,7 @@ By linearity of $\pay_{\play}(\cdot, \strat_{\others})$, the set of best replies
 
 
 **Proof**
-For 1. Let $\strat$ be a slope strategy. Then for each player $\BR_{\play}(\strat_\others)$ is the whole $\strats_\play$, that contains in particular $\strat_\play$.
+For 1. Let $\strat$ be a slope strategy. Then for each player $\BR_{\play}(\strat_{\others})$ is the whole $\strats_\play$, that contains in particular $\strat_\play$.
 
 For 2. Since $\strat$ is Nash $\strat_\play \in \BR_\play(\strat_{\others})$, so by linearity $\BR_\play(\strat_{\others})$ contains the whole face of $\strats_\play$ that contains $\strat_i$,  for each player $\play$. In particular, it contains all of its vertices, that are precisely the pure strategies supported by $\strat_i$.
 
