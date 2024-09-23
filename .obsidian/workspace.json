@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-09-20-iterative-elimination-of-dominated-strategies-and-nash-equilibrium.md",
+                "file": "_posts/2024-09-23-slope-and-Nash-folk.md",
                 "mode": "preview",
-                "source": true
+                "source": false
               }
             }
           }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-09-20-iterative-elimination-of-dominated-strategies-and-nash-equilibrium.md",
+                "file": "_posts/2024-09-23-slope-and-Nash-folk.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-09-20-iterative-elimination-of-dominated-strategies-and-nash-equilibrium.md",
+                "file": "_posts/2024-09-23-slope-and-Nash-folk.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-09-20-iterative-elimination-of-dominated-strategies-and-nash-equilibrium.md"
+                "file": "_posts/2024-09-23-slope-and-Nash-folk.md"
               }
             }
           }
@@ -148,9 +148,10 @@
   },
   "active": "8af9951f6b588e9f",
   "lastOpenFiles": [
+    "_posts/2024-09-20-iterative-elimination-of-dominated-strategies-and-nash-equilibrium.md",
+    "_posts/2024-09-23-slope-and-Nash-folk.md",
     "README.md",
     "personal_readme.txt",
-    "_posts/2024-09-20-iterative-elimination-of-dominated-strategies-and-nash-equilibrium.md",
     "_includes/head-custom.html",
     "_includes/OFF_head-custom.html",
     "_includes/head-custom copy.html",
