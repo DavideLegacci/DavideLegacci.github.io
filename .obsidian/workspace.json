@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-09-23-slope-and-Nash-folk.md",
+                "file": "_posts/2024-09-23-slope-strategies-and-Nash-equilibria-folk-results.md",
                 "mode": "preview",
                 "source": true
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-09-23-slope-and-Nash-folk.md",
+                "file": "_posts/2024-09-23-slope-strategies-and-Nash-equilibria-folk-results.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-09-23-slope-and-Nash-folk.md",
+                "file": "_posts/2024-09-23-slope-strategies-and-Nash-equilibria-folk-results.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-09-23-slope-and-Nash-folk.md"
+                "file": "_posts/2024-09-23-slope-strategies-and-Nash-equilibria-folk-results.md"
               }
             }
           }
@@ -149,7 +149,7 @@
   "active": "8af9951f6b588e9f",
   "lastOpenFiles": [
     "_posts/2024-09-20-iterative-elimination-of-dominated-strategies-and-nash-equilibrium.md",
-    "_posts/2024-09-23-slope-and-Nash-folk.md",
+    "_posts/2024-09-23-slope-strategies-and-Nash-equilibria-folk-results.md",
     "README.md",
     "personal_readme.txt",
     "_includes/head-custom.html",

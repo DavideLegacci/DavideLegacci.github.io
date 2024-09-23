@@ -4,7 +4,7 @@ tags: game-theory
 
 A key property of Nash equilibria in normal form games is that all players are indifferent among all of their supported choices.
 
-# Slope points and Nash equilibria folk results
+# Slope strategies and Nash equilibria folk results
 
 $$
 \newcommand{\game}{\Gamma}
