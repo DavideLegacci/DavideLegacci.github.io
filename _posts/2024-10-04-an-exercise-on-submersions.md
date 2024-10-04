@@ -27,13 +27,13 @@ $$\psi(t) = (x,y, z)(t) = (\sqrt{\alpha}, \sqrt{\beta + t^2}, t)$$
 Differentiating the parametrization with respect to $t$ gives the vector field $\partial_t$ spanning the tangent space to $S$ at $t$ as a linear combination of the basis vector fields $\partial_x, \partial_y, \partial_z$: we get $\partial_t = (0, z, y)$, so the affine tangent space to $S$ at $(x, y, z)$ is 
 
 $$
-\tilde{T}_(x,y,z)S = T_(x,y,z)S + (x,y,z) = \langle(0, z, y)\rangle + (x, y, z).
+\tilde{T}_{(x,y,z)}S = T_{(x,y,z)}S + (x,y,z) = \langle(0, z, y)\rangle + (x, y, z).
 $$
 
 For example for $t = 1$, $\alpha = \beta = 1$, $(x, y, z) = (1, \sqrt{2}, 1)$, we get
 
 $$
-\tilde{T}_(x,y,z)S  = \langle(0, 1, \sqrt{2})\rangle + (1, \sqrt{2}, 1).
+\tilde{T}_{(1,\sqrt{2},1)}S  = \langle(0, 1, \sqrt{2})\rangle + (1, \sqrt{2}, 1).
 $$
 
 ![Tangent space](./../tangent-space.png)
