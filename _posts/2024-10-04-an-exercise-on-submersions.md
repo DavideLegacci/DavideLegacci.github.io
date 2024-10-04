@@ -7,7 +7,19 @@ An exercise on submanifolds arising as regular level sets of smooth maps[^lee].
 # An exercise on submersions
 $\newcommand{R}{\mathbb{R}}$
 
-Let $F: \R^3 \to \R^2$ be $F(x, y, z) = (x^2, y^2-z^2)$. Its differential is $dF_{(x,y,z)}: R^3 \to \R^2$ mapping $dF_{(x,y,z)}(a,b,c) = (2ax, 2by-2cz)$. The only critical point is $(x, y, z) = (0, 0, 0)$ with critical value $(0,0)$. Thus for all $(\alpha, \beta) \neq (0,0)$ the level set $S = {(x, y, z): F(x, y, z) = (\alpha, \beta)}$ if non-empty is a $1$-dimensional submanifold of $\R^3$ given in parametric form by
+Let $F: \R^3 \to \R^2$ be $F(x, y, z) = (x^2, y^2-z^2)$. Its differential $dF_{(x,y,z)}: R^3 \to \R^2$ is the linear map
+$$dF_{(x,y, z)} =
+\begin{pmatrix}
+2x & 0 & 0 \\
+0 & 2y & -2z
+\end{pmatrix}
+$$
+A point $p \in \R^3$ is **critical** for $F$ if $dF_{p}$ is not surjective, i.e. if $\text{rk}({dF_p})<2$; the critical points for $F$ are $(0, y, z)$ for all $y, z \in \R$;  and $(x, 0, 0)$ for all $x \in \R$.
+
+A point $(\alpha, \beta) \in \R^2$ is a **critical value** for $F$ if its level set $F^{-1}(\alpha, \beta)$ contains a critical point.
+
+
+The only critical point is $(x, y, z) = (0, 0, 0)$ with critical value $(0,0)$. Thus for all $(\alpha, \beta) \neq (0,0)$ the level set $S = {(x, y, z): F(x, y, z) = (\alpha, \beta)}$ if non-empty is a $1$-dimensional submanifold of $\R^3$ given in parametric form by
 
 $$
 \begin{split}
