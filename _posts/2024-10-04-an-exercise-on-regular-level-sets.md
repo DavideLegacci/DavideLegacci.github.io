@@ -8,12 +8,14 @@ An exercise on submanifolds arising as regular level sets of smooth maps[^lee].
 $\newcommand{R}{\mathbb{R}}$
 
 Let $F: \R^3 \to \R^2$ be $F(x, y, z) = (x^2, y^2-z^2)$. Its differential $dF_{(x,y,z)}: R^3 \to \R^2$ is the linear map
+
 $$dF_{(x,y, z)} =
 \begin{pmatrix}
 2x & 0 & 0 \\
 0 & 2y & -2z
 \end{pmatrix}
 $$
+
 A point $p \in \R^3$ is  a **critical point** for $F$ if $dF_{p}$ is not surjective, i.e. if $\text{rk}({dF_p})<2$.
 
 A point $(\alpha, \beta) \in \R^2$ is a **critical value** for $F$ if its level set $F^{-1}(\alpha, \beta)$ contains a critical point. By the regular level set theorem, if $(\alpha, \beta)$ is not a critical value $\textendash$ i.e.,  its level set $F^{-1}(\alpha, \beta)$ does not contain critical points $\textendash$ then $F^{-1}(\alpha, \beta)$ is a submanifold of $\R^3$ of codimension $2$.
