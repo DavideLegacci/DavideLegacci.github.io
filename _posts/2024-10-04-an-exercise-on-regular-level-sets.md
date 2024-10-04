@@ -13,12 +13,12 @@ $$dF_{(x,y, z)} =
 \begin{pmatrix}
 2x & 0 & 0 \\
 0 & 2y & -2z
-\end{pmatrix}
+\end{pmatrix}.
 $$
 
 A point $p \in \R^3$ is  a **critical point** for $F$ if $dF_{p}$ is not surjective, i.e. if $\text{rk}({dF_p})<2$.
 
-A point $(\alpha, \beta) \in \R^2$ is a **critical value** for $F$ if its level set $F^{-1}(\alpha, \beta)$ contains a critical point. By the regular level set theorem, if $(\alpha, \beta)$ is not a critical value $\textendash$ i.e.,  its level set $F^{-1}(\alpha, \beta)$ does not contain critical points $\textendash$ then $F^{-1}(\alpha, \beta)$ is a submanifold of $\R^3$ of codimension $2$.
+A point $(\alpha, \beta) \in \R^2$ is a **critical value** for $F$ if its level set $F^{-1}(\alpha, \beta)$ contains a critical point. By the regular level set theorem, if $(\alpha, \beta)$ is not a critical value -- i.e.,  its level set $F^{-1}(\alpha, \beta)$ does not contain critical points -- then $F^{-1}(\alpha, \beta)$ is a submanifold of $\R^3$ of codimension $2$.
 
 
 The critical points for $F$ are $(0, y, z)$ for all $y, z \in \R$;  and $(x, 0, 0)$ for all $x \in \R$. Thus for all $\alpha >0$ and $\beta > 0$, the value $(\alpha, \beta) \in \R^2$ is regular and its level set $S = {(x, y, z): F(x, y, z) = (\alpha, \beta)}$ is a non-empty $1$-dimensional submanifold of $\R^3$ given in parametric form by
