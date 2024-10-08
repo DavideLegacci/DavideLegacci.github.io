@@ -2,7 +2,7 @@
 tags: geometry
 ---
 
-Just some quick notes on orthogonal projections onto regular level sets.
+Just some quick notes on orthogonal projections onto regular level sets from a linear-algebraic and a differential point of view.
 
 # A quick note on orthogonal projections
 
