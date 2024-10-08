@@ -32,7 +32,7 @@ $$
 
 This is a disconnected manifold given by $4$ hyperbole branches:
 
-![manifold](./../manifold.png)
+![manifold](images/manifold.png)
 
 The branch with $x > 0$ and $y > 0$ is parametrized by $\psi: \R \to \R^3$ with
 
@@ -50,6 +50,6 @@ $$
 \tilde{T}_{(1,\sqrt{2},1)}S  = \langle(0, 1, \sqrt{2})\rangle + (1, \sqrt{2}, 1).
 $$
 
-![Tangent space](./../tangent-space.png)
+![Tangent space](images/tangent-space.png)
 
 [^lee]: J. M. Lee, _Introduction to Smooth Manifolds_, 2nd ed. in Graduate Texts in Mathematics. Springer-Verlag New York, 2012.
