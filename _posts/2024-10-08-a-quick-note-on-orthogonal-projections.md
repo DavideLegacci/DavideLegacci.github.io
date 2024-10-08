@@ -10,7 +10,9 @@ Just some quick notes on orthogonal projections onto regular level sets.
 	- [[#The linear algebraic point of view#Full-rank case|Full-rank case]]
 	- [[#The linear algebraic point of view#Full-rank, surjective, Riemannian case|Full-rank, surjective, Riemannian case]]
 - [[#The differential point of view|The differential point of view]]
+	- [[#The differential point of view#Level sets of smooth submersions and gradients|Level sets of smooth submersions and gradients]]
 - [[#Best of both worlds|Best of both worlds]]
+
 
 
 $\newcommand{\R}{\mathbb{R}}$
@@ -129,6 +131,7 @@ $$
 which is dimensionally consistent (the fraction is a scalar, and $X$ and $g^{-1}A^T$ are $n\times 1$), and is precisely Eq. $(3)$ in the case $m = 1$.
 
 
+---
 
 
 [^rom]: S. Roman, S. Axler, and F. Gehring, _Advanced linear algebra_, 3rd ed. Springer, 2008.
