@@ -15,7 +15,7 @@
               "state": {
                 "file": "_posts/2024-10-08-a-quick-note-on-orthogonal-projections.md",
                 "mode": "preview",
-                "source": true
+                "source": false
               }
             }
           }
@@ -148,15 +148,16 @@
   },
   "active": "8af9951f6b588e9f",
   "lastOpenFiles": [
-    "Untitled 1.md",
+    "_posts/2024-10-04-an-exercise-on-regular-level-sets.md",
     "_posts/2024-10-08-a-quick-note-on-orthogonal-projections.md",
+    "how-to-link.md",
+    "README.md",
+    "_posts/2024-01-17-geometric-aspects-of-learning-in-games.md",
+    "Untitled 1.md",
     "Reading notes/@alvarezHessianRiemannianGradient2004.md",
     "images/manifold.png",
     "images/tangent-space.png",
-    "README.md",
     "Untitled.md",
-    "how-to-link.md",
-    "_posts/2024-10-04-an-exercise-on-regular-level-sets.md",
     "images",
     "Reading notes",
     "untitled folder",
@@ -164,7 +165,6 @@
     "winitzkiIntroductionQuantumEffects2007.md",
     "Collection-website.bib",
     "_posts/2024-01-17-hamiltonian-riemannian-game-dynamics.md",
-    "_posts/2024-01-17-geometric-aspects-of-learning-in-games.md",
     "_posts/2024-09-23-slope-strategies-and-Nash-equilibria-folk-results.md",
     "_posts/2024-09-20-iterative-elimination-of-dominated-strategies-and-nash-equilibrium.md",
     "personal_readme.txt",

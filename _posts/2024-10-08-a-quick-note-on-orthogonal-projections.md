@@ -17,6 +17,7 @@ $\newcommand{\R}{\mathbb{R}}$
 $\newcommand{\from}{:}$
 $\newcommand{\pin}[1]{\tilde{#1}}$
 $\DeclareMathOperator{\im}{im}$
+$\DeclareMathOperator{\grad}{grad}$
 $\DeclareMathOperator{\id}{I}$
 $\DeclareMathOperator{\dim}{dim}$
 
@@ -81,9 +82,57 @@ Dimensionally, a vector in $U$ has shape $n\times1$ (column vector), and $P_x$ m
 
 
 ## The differential point of view
+Different point of view now. Let $S$ be a submanifold[^lee] of a Riemannian manifold $(M,g)$. If $X$ is a vector field on $M$ then its orthogonal projection with respect to $g$ onto $S$ is the vector field $X_S$ on S given by
+
+$$
+X_S = X - \frac{g(X,n)}{g(n,n)} \, n
+$$
+
+where $n$ is any vector field in $M$ that is normal to $S$.
+
+### Level sets of smooth submersions and gradients
+If $F \from M \to N$ is a smooth submersion between smooth manifolds, that is a smooth function whose differential is surjective,[^regular] then its level sets $S_y = {x \in M: F(x) = y}$ are smooth submanifolds of $M$ of dimension $\dim{M} - \dim{N}$, for all $y \in N$.
+
+If $N = \R$ then $S$ has codimension $1$, and the tangent space to $S$ at a point $x$ is the kernel of the differential of $F$, $T_{x}S = \ker{d_xF}$, so that the gradient of $F$ is a vector field in $M$ normal to $S$:
+
+$$
+g_x(\grad{F}_x, u) = d_xF\cdot{u} = 0 \quad \text{ for all } u \in T_{x}S.
+$$
+
+Thus if $X$ is a vector field in $(M,g)$, its  orthogonal projection $X_S$ onto the level set $S$ of a smooth submersion $F \from M \to \R$ is
+
+$$
+\tag{4}
+X_S = X - \frac{g(X,\grad{F})}{g(\grad{F},\grad{F})} \, \grad{F}.
+$$
 
 ## Best of both worlds
+Let now $A \from M = \R^n \to \R$ be a full-rank linear surjection, and let $S = \ker{A}$ be its zero level set. In this case, Eq. $(4)$ should reduce to Eq. $(3)$.
+
+In matrix form we have that $A \in \R^{1 \times n}$, and by linearity the differential of $A$ can be identified with $A$ itself, and thought of as a row vector: $d_xA \cong A: T_{x}\R^n \cong \R^n \to T_{Ax}\R \cong\R$. The gradient of $A$ at a point $x$ is the $n\times 1$ column vector 
+
+$$\grad_{x}A = g_x^{-1} \left( d_{x}A \right) = g_{x}^{-1}A^T,
+$$
+
+where in the second term the $(2,0)$ tensor $g_{x}^{-1}$ acts on the $(0,1)$ tensor $d_x{A}$ by canonical duality pairing, and the last term is to be read as matrix equation; dimensions are consistent since $g_x^{-1}$ is $n \times n$ and $A^T$ is $n \times 1$.
+
+By $(4)$ the orthogonal projection of a vector field $X$ in $M$ onto $S$ with respect to $g$ is
+
+$$
+\begin{split}
+X_S
+& = X - \frac{g(X,\grad{A})}{g(\grad{A},\grad{A})} \, \grad{A} \\
+& =  X - \frac{AX}{Ag^{-1}A^T} \, g^{-1}A^T \\
+\end{split}
+$$
+
+which is dimensionally consistent (the fraction is a scalar, and $X$ and $g^{-1}A^T$ are $n\times 1$), and is precisely Eq. $(3)$ in the case $m = 1$.
+
+
+
 
 [^rom]: S. Roman, S. Axler, and F. Gehring, _Advanced linear algebra_, 3rd ed. Springer, 2008.
 [^kam]: K. Kamaraj and K. C. Sivakumar, “Moore-Penrose inverse in an indefinite inner product space,” _JAMC_, vol. 19, no. 1, pp. 297–310, Mar. 2005
 [^alv]: F. Alvarez, J. Bolte, and O. Brahic, “Hessian Riemannian gradient flows in convex programming,” _SIAM J. Control Optim._, vol. 43, no. 2, pp. 477–501, Jan. 2004, doi: [10.1137/S0363012902419977](https://doi.org/10.1137/S0363012902419977).
+[^lee]: J. M. Lee, _Introduction to Smooth Manifolds_, 2nd ed. in Graduate Texts in Mathematics. Springer-Verlag New York, 2012.
+[^regular]: This can be relaxed to *regular level sets* of smooth functions that are not necessarily submersions by requiring the level sets to not contain critical points; cf [An exercise on regular level sets](./2024-10-04-an-exercise-on-regular-level-sets.md).
