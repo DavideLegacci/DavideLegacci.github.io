@@ -6,12 +6,11 @@ Just some quick notes on orthogonal projections onto regular level sets from a l
 
 # A quick note on orthogonal projections
 
-- [[#The linear algebraic point of view|The linear algebraic point of view]]
-	- [[#The linear algebraic point of view#Full-rank case|Full-rank case]]
-	- [[#The linear algebraic point of view#Full-rank, surjective, Riemannian case|Full-rank, surjective, Riemannian case]]
-- [[#The differential point of view|The differential point of view]]
-	- [[#The differential point of view#Level sets of smooth submersions and gradients|Level sets of smooth submersions and gradients]]
-- [[#Best of both worlds|Best of both worlds]]
+---
+- The linear algebraic point of view
+- The differential point of view
+- Best of both worlds|Best of both worlds
+---
 
 
 
