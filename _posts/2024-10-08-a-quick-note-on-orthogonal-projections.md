@@ -6,14 +6,6 @@ Just some quick notes on orthogonal projections onto regular level sets from a l
 
 # A quick note on orthogonal projections
 
----
-- The linear algebraic point of view
-- The differential point of view
-- Best of both worlds|Best of both worlds
----
-
-
-
 $\newcommand{\R}{\mathbb{R}}$
 $\newcommand{\from}{:}$
 $\newcommand{\pin}[1]{\tilde{#1}}$
