@@ -6,8 +6,12 @@ Just some quick notes on orthogonal projections onto regular level sets.
 
 # A quick note on orthogonal projections
 
-```table-of-contents
-```
+- [[#The linear algebraic point of view|The linear algebraic point of view]]
+	- [[#The linear algebraic point of view#Full-rank case|Full-rank case]]
+	- [[#The linear algebraic point of view#Full-rank, surjective, Riemannian case|Full-rank, surjective, Riemannian case]]
+- [[#The differential point of view|The differential point of view]]
+- [[#Best of both worlds|Best of both worlds]]
+
 
 $\newcommand{\R}{\mathbb{R}}$
 $\newcommand{\from}{:}$
@@ -48,6 +52,7 @@ $$
 \tag{2}
 \pin{A} = A^T\left( AA^T \right)^{-1};
 $$
+
 - if $n < m$ ($A$ injective), then $\pin{A} = \left(A^{T}A\right)^{-1}A^T$.
 
 
