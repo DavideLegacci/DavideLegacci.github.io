@@ -8,14 +8,14 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8af9951f6b588e9f",
+            "id": "f1423ed749cf9c88",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-10-08-a-quick-note-on-orthogonal-projections.md",
+                "file": "tag/learning-in-games.md",
                 "mode": "preview",
-                "source": true
+                "source": false
               }
             }
           }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-10-08-a-quick-note-on-orthogonal-projections.md",
+                "file": "tag/learning-in-games.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-10-08-a-quick-note-on-orthogonal-projections.md",
+                "file": "tag/learning-in-games.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-10-08-a-quick-note-on-orthogonal-projections.md"
+                "file": "tag/learning-in-games.md"
               }
             }
           }
@@ -146,18 +146,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8af9951f6b588e9f",
+  "active": "f1423ed749cf9c88",
   "lastOpenFiles": [
-    "_posts/2024-10-04-an-exercise-on-regular-level-sets.md",
+    "tag/game-theory.md",
+    "tag/learning-in-games.md",
+    "tag/project.md",
+    "Untitled.md",
+    "Untitled 1.md",
+    "_posts/2024-10-11-a-potential-zero-sum-game.md",
     "_posts/2024-10-08-a-quick-note-on-orthogonal-projections.md",
+    "images/potential_zero_sum.png",
+    "images/harmonic.png",
+    "images/potential_zero_sum.pdf",
+    "images/potential_zero_sum.jpg",
+    "_posts/2024-10-04-an-exercise-on-regular-level-sets.md",
     "how-to-link.md",
     "README.md",
     "_posts/2024-01-17-geometric-aspects-of-learning-in-games.md",
-    "Untitled 1.md",
     "Reading notes/@alvarezHessianRiemannianGradient2004.md",
     "images/manifold.png",
     "images/tangent-space.png",
-    "Untitled.md",
     "images",
     "Reading notes",
     "untitled folder",
@@ -172,12 +180,9 @@
     "_includes/OFF_head-custom.html",
     "_includes/head-custom copy.html",
     "_posts/2024-09-04-shahshahani-volume-of-the-probability-simplex.md",
-    "tag/game-theory.md",
     "tag/geometry.md",
     "_drafts/-basic-facts-on-Riemannian-gradients.md",
-    "tag/project.md",
     "tag/geometry.html",
-    "tag",
     "_posts/2024-09-03-test-post.md"
   ]
 }
