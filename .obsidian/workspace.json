@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-10-11-a-potential-zero-sum-game.md",
+                "file": "README.md",
                 "mode": "preview",
                 "source": true
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-10-11-a-potential-zero-sum-game.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-10-11-a-potential-zero-sum-game.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-10-11-a-potential-zero-sum-game.md"
+                "file": "README.md"
               }
             }
           }
@@ -148,13 +148,13 @@
   },
   "active": "f1423ed749cf9c88",
   "lastOpenFiles": [
+    "_posts/2024-10-11-a-potential-zero-sum-game.md",
     "README.md",
     "tag/learning-in-games.md",
     "tag/game-theory.md",
     "tag/project.md",
     "Untitled.md",
     "Untitled 1.md",
-    "_posts/2024-10-11-a-potential-zero-sum-game.md",
     "_posts/2024-10-08-a-quick-note-on-orthogonal-projections.md",
     "images/potential_zero_sum.png",
     "images/harmonic.png",
