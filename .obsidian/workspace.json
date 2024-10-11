@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tag/learning-in-games.md",
+                "file": "_posts/2024-10-11-a-potential-zero-sum-game.md",
                 "mode": "preview",
-                "source": false
+                "source": true
               }
             }
           }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tag/learning-in-games.md",
+                "file": "_posts/2024-10-11-a-potential-zero-sum-game.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tag/learning-in-games.md",
+                "file": "_posts/2024-10-11-a-potential-zero-sum-game.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tag/learning-in-games.md"
+                "file": "_posts/2024-10-11-a-potential-zero-sum-game.md"
               }
             }
           }
@@ -148,8 +148,9 @@
   },
   "active": "f1423ed749cf9c88",
   "lastOpenFiles": [
-    "tag/game-theory.md",
+    "README.md",
     "tag/learning-in-games.md",
+    "tag/game-theory.md",
     "tag/project.md",
     "Untitled.md",
     "Untitled 1.md",
@@ -161,7 +162,6 @@
     "images/potential_zero_sum.jpg",
     "_posts/2024-10-04-an-exercise-on-regular-level-sets.md",
     "how-to-link.md",
-    "README.md",
     "_posts/2024-01-17-geometric-aspects-of-learning-in-games.md",
     "Reading notes/@alvarezHessianRiemannianGradient2004.md",
     "images/manifold.png",

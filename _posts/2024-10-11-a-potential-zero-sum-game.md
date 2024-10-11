@@ -18,6 +18,7 @@ u_1 = \begin{pmatrix}
 $$
 
 It's easy to check that the game is **potential** with potential function
+
 $$
 \phi = \begin{pmatrix}
 3 & 0 \\
